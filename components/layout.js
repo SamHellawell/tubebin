@@ -13,6 +13,7 @@ export default function Layout({ children, searchTerm = '', withHeader = true })
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Free, anonymous and simple video search service" />
       </Head>
 
       {withHeader && (
