@@ -224,7 +224,7 @@ export default function SearchResults({ searchTerm, results, totalResults, elaps
         ) : (
           error ? (
             <>
-              something went wrong
+              Something went wrong:
               <br />
               <pre>
               {error}
@@ -232,7 +232,8 @@ export default function SearchResults({ searchTerm, results, totalResults, elaps
             </>
           ) : (
             <>
-              no results yet, check back soon
+              No results yet, but we are indexing your query<br />
+              Try again soon or try different search terms
             </>
           )
         )}
