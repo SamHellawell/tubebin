@@ -1,0 +1,18 @@
+{
+  "globals": {
+    "process": "readonly"
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": ["eslint:recommended", "next/core-web-vitals"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "camelcase": 2,
+    "no-useless-escape": "off"
+  }
+}
